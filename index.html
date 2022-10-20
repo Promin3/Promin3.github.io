@@ -1,24 +1,341 @@
-﻿<!DOCTYPE html>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--> 
+<!DOCTYPE HTML>
 <html>
-
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Personal page</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+<title>Chicharito999.github.io</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Graphic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<script>
+		$(document).ready(function () {
+		    size_li = $("#myList li").size();
+		    x=3;
+		    $('#myList li:lt('+x+')').show();
+		    $('#loadMore').click(function () {
+		        x= (x+1 <= size_li) ? x+1 : size_li;
+		        $('#myList li:lt('+x+')').show();
+		    });
+		    $('#showLess').click(function () {
+		        x=(x-1<0) ? 1 : x-1;
+		        $('#myList li').not(':lt('+x+')').hide();
+		    });
+		});
+	</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?abdfe07004172628012f07240bbfd7f3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </head>
-
 <body>
-    <h1> Hello, welcome to Zhu Junjie's personal homepage</h1>
-    <hr>
-    <h3> Junjie Zhu (Promin) is a sophomore in the Department of Software Engineering, School of Computer Science, Wuhan
-        University</h3>
-    <h3> Feel free to contact me via email : 3056063115@qq.com or 2021302111204@whu.edu.cn</h3>
-    <h3> You can also follow me in github : <a href="https://github.com/Promin3"> Promin's github </a></h3>
-    <h3>This personal homepage is being developed...</h3>
+<!-- header -->
+<div class="banner">
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+			</div>
+			<div class="header-right">
+				<ul>
+					<li><a href="#"><i class="fb"> </i></a></li>
+					<li><a href="#"><i class="twt"> </i></a></li>
+				<li>
+				<div class="search2">
+					<form>
+						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}">
+						<input type="submit" value="">
+					</form>
+				</div></li>
+					<div class="clearfix"></div> 
+				</ul>
+					
+			</div>
+				<div class="clearfix"> </div>
+			</div>
+				<div class="head-nav">
+					<span class="menu"> </span>
+						<ul class="cl-effect-15">
+						<li class="active"><a href="index.html">HOME</a></li>
+							<li><a href="about.html" data-hover="ABOUT">ABOUT ME</a></li>
+							<li><a href="404.html" data-hover="ARCHIVES">ARCHIVES</a></li>
+							<li><a href="contact.html" data-hover="CONTACT">CONTACT</a></li>
+								<div class="clearfix"> </div>
+						</ul>
+				</div>
+
+						<!-- script-for-nav -->
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".head-nav ul" ).slideToggle(300, function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+				<!-- script-for-nav --> 					 
+	</div> 
+</div>
+<!-- header -->
+
+<!-- content -->
+<div class="content">
+	<div class="container">
+	 <div class="load_more">	
+			     <ul id="myList">
+			        <!-- These are our grid blocks -->
+			        <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h2>Kmeans算法分析与实现</h2>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  21 days ago</p>
+										<a href="https://github.com/Chicharito999/K-means"><img src="images/img1.jpg" class="img-responsive" alt=""></a>
+										<p>机器学习 Project I </p>
+										<a href="https://github.com/Chicharito999/K-means" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Stickman</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  14 days ago</p>
+										<a href="https://github.com/Chicharito999/Stickman"><img src="images/img3.gif" class="img-responsive" alt=""></a>
+										<p>计算机图形学 Assignment II：Let's move your stick man</p>
+										<a href="https://github.com/Chicharito999/Stickman" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>贝叶斯分类</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  14 days ago</p>
+										<a href="https://github.com/Chicharito999/BayesClassification"><img src="images/2222.jpg" class="img-responsive" alt=""></a>
+										<p>机器学习 Project II：正太概率密度的贝叶斯分类</p>
+										<a href="https://github.com/Chicharito999/BayesClassification" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+								    <div class="categories">
+										<h4>Categories</h4>
+										<h6><a href="#">推荐系统</a></h6>
+										<h6><a href="https://chicharito999.github.io/Machine-Learning/">机器学习</a></h6>
+										<h6><a href="https://chicharito999.github.io/Computer-Graphics/">计算机图形学</a></h6>
+										<h6><a href="#">数据结构</a></h6>
+									</div>
+									
+									<div class="comments"> 
+										<h4>Recent Read</h4>
+										<h6><a href="http://www.cs.utoronto.ca/~lcharlin/papers/cofactorization.pdf">Factorization Meets the Item Embedding: RegularizingMatrix Factorization with Item Co-occurrence</a></h6>
+										<h6><a href="http://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization.pdf">Neural Word Embeddingas Implicit Matrix Factorization</a></h6>
+										<h6><a href="http://papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf">Probabilistic Matrix Factorization</a></h6>
+	                                    <h6><a href="http://www.yifanhu.net/PUB/cf.pdf">Collaborative Filtering for Implicit Feedback Datasets</a></h6>
+									</div>
+									
+									
+	
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+					 <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>贝叶斯估计</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  14 days ago</p>
+										<a href="https://github.com/Chicharito999/BE"><img src="images/img2.jpg" class="img-responsive" alt=""></a>
+										<p>机器学习 Project III：贝叶斯估计概率密度 </p>
+										<a href="https://github.com/Chicharito999/BE" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>最大似然估计</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  1 days ago</p>
+										<a href="https://github.com/Chicharito999/MLE"><img src="images/img4.jpg" class="img-responsive" alt=""></a>
+										<p>机器学习 Project IV：正态概率密度的最大似然估计 </p>
+										<a href="https://github.com/Chicharito999/MLE" class="link">Read More</a>
+									</div>																	
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Parzen窗估计</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  1 days ago</p>
+										<a href="https://github.com/Chicharito999/Parzen"><img src="images/img5.jpg" class="img-responsive" alt=""></a>
+										<p>机器学习 Project V：Parzen窗估计类别 </p>
+										<a href="https://github.com/Chicharito999/Parzen" class="link">Read More</a>
+									</div>	
+								</div>
+							</div>
+			
+							<div class="clearfix"></div>
+						</div>
+					</li>
+			        <!----//--->
+					 <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h2>Kn近邻估计</h2>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  1 days ago</p>
+										<a href="https://github.com/Chicharito999/Kn"><img src="images/img6.jpg" class="img-responsive" alt=""></a>
+										<p>机器学习 Project VI：Kn近邻估计类别 </p>
+										<a href="https://github.com/Chicharito999/Kn" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h2>Ray-Tracing</h2>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  1 days ago</p>
+										<a href="https://github.com/Chicharito999/Ray-Tracing"><img src="images/img7.jpg" class="img-responsive" alt=""></a>
+										<p>计算机图形学 Assignment III：Realize at least two different method such as Phong model, Gouraud model </p>
+										<a href="https://github.com/Chicharito999/Ray-Tracing" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h2>线性判别函数</h2>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  1 days ago</p>
+										<a href="https://github.com/Chicharito999/IDF"><img src="images/img8.jpg" class="img-responsive" alt=""></a>
+										<p>机器学习 Project VII：利用梯度下降法和牛顿法进行线性分类 </p>
+										<a href="https://github.com/Chicharito999/IDF" class="link">Read More</a>
+									</div>
+								</div> 
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+			        <!----//--->
+			          <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h2>Praesent dapibusneque id cursus faucioibus tortor neque tiegetas augue</h2>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  7 days ago</p>
+										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="details.html" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="vitae">
+										<h3>Integer vitae libero risus egestas</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  7 days ago</p>
+										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
+										<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet</p>
+										<a href="details.html" class="link">Read More</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Praesent dapibusn id cursus</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  7 days ago</p>
+										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="details.html" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+					 <li>
+						<div class="l_g">
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h2>Praesent dapibusneque id cursus faucioibus tortor neque tiegetas augue</h2>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  7 days ago</p>
+										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="details.html" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="vitae">
+										<h3>Integer vitae libero risus egestas</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  7 days ago</p>
+										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
+										<p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet</p>
+										<a href="details.html" class="link">Read More</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Praesent dapibusn id cursus</h3>
+										<p class="adm">Posted by <a href="#">Admin</a>  |  7 days ago</p>
+										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
+										<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate. </p>
+										<a href="details.html" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+					<div class="clearfix"></div>
+					 <!----//--->
+			      </ul>
+				  <div id="loadMore">Load more</div>
+	<div id="showLess">Show less</div>
+
+			    </div>
+	</div>
+</div>
+<!-- content -->	
 
 </body>
-
-</html>>
+</html>
