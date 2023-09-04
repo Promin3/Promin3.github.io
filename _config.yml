@@ -54,7 +54,7 @@ footer-text: Copyright (c) 2023 kevin
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
   clientID: 664c437b9a7cc300e415
-  clientSecret: efc9a75abc0452cb0fc2e02424e1474d285cf5b2
+  clientSecret: d1bb18f2b02969ad393628c3426aa29f8201e2a8
   repo: Promin3.github.io
   owner: Promin3
 
