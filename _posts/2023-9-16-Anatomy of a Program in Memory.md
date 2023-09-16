@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 程序在内存中的布局
+title: 进程的虚拟地址布局
 date:   2023-9-16
 tags: [cs]
 comments: true
