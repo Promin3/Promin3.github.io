@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anatomy of a Program in Memory
+title: 程序在内存中的布局
 date:   2023-9-16
 tags: [cs]
 comments: true
@@ -51,4 +51,6 @@ author: kevin
 
 ![Classic Process Address Space Layout In Linux](https://raw.githubusercontent.com/Promin3/Promin3.github.io/main/images/linuxClassicAddressSpaceLayout.png)
 
-​		这就是虚拟地址空间布局。下一篇文章讨论了内核如何跟踪这些内存区域。接下来，我们将研究内存映射，文件读写如何与这一切联系起来，以及内存使用数字意味着什么。
+​		这就是虚拟地址空间布局。下一篇文章[How the kernel manages memory]讨论了内核如何跟踪这些内存区域。接下来，我们将研究内存映射，文件读写如何与这一切联系起来，以及内存使用数字意味着什么。
+
+[翻译自该文章](https://manybutfinite.com/post/anatomy-of-a-program-in-memory/)
