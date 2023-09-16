@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomy of a Program in Memory
-date:   2023-9-5
+date:   2023-9-16
 tags: [cs]
 comments: true
 author: kevin
