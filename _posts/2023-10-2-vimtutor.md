@@ -1,3 +1,16 @@
+---
+
+layout: post
+title: vimtutor
+date:   2019-11-22
+tags: [cs]
+comments: true
+author: kevin
+
+---
+
+vim自带教程的章节小节，方便查阅
+<!--more-->
 * 第一讲小结
 ```
 1. 光标在屏幕文本中的移动既可以用箭头键，也可以使用 hjkl 字母键。 
