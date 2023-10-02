@@ -2,7 +2,7 @@
 
 layout: post
 title: vimtutor
-date:   2019-11-22
+date:   2023-10-2
 tags: [cs]
 comments: true
 author: kevin
